@@ -1,0 +1,38 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Virtual machine files
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+*.iso
+
+# Packet captures outside intentional evidence
+*.pcapng
+*.pcap
+
+# Allow intentional packet-capture evidence
+!incidents/*/evidence/*.pcap
+!incidents/*/evidence/*.pcapng
+
+# Allow documented INC-004 DNS packet capture
+!incidents/INC-004/packet-captures/
+!incidents/INC-004/packet-captures/*.pcap
+!incidents/INC-004/packet-captures/*.pcapng
