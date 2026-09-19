@@ -65,8 +65,12 @@ This project contains 10 documented support incidents performed in a virtualized
 | [INC-008](incidents/INC-008/) | Windows Time Synchronization and Kerberos Validation | W32Time, Kerberos, klist, SMB authentication |
 | [INC-009](incidents/INC-009/) | Accounting Network Printer Deployment | Print Server, printer drivers, PowerShell, GPO |
 | [INC-010](incidents/INC-010/) | New Accounting Employee Onboarding | Active Directory, security groups, GPO, SMB, printers |
-
+| [INC-011](incidents/INC-011/) | Microsoft Entra ID Sign-In Failure, Password Reset, and MFA Registration | Microsoft Entra ID, sign-in logs, authentication troubleshooting, password reset, MFA |
 ## Selected Technical Work
+
+### Microsoft Entra ID and Cloud Identity
+
+Investigated Microsoft cloud authentication issues using Entra ID sign-in logs and detailed authentication events. Analyzed invalid-credential, password-expiration, and MFA-registration conditions, performed an administrator-initiated password reset, and reviewed subsequent sign-in activity to validate successful authentication.
 
 ### Active Directory Administration
 
@@ -235,7 +239,9 @@ enterprise-it-support-lab/
     ├── INC-007/
     ├── INC-008/
     ├── INC-009/
-    └── INC-010/
+    ├── INC-010/
+    └── INC-011/
+
 ```
 
 Each incident directory contains a README describing the issue, investigation, resolution, validation, and skills demonstrated. Available screenshots and supporting evidence are stored with the corresponding incident.
